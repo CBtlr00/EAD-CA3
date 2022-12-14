@@ -6,10 +6,24 @@
 <body>
         <!-- search container -->
         <div class="input-group m-5 align-content-center">
-            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" @bind-value="@searchTerm"/>
+            <input type="search" class="form-control rounded" placeholder="Search by Name" aria-label="Search" aria-describedby="search-addon" @bind-value="@searchTerm"/>
             <button type="button" class="btn btn-outline-primary" @onclick="@updateSearchTerm">Search Movie</button>
         </div>
         <!-- end of search container -->
+        <div class="align-content-center">
+            @if (Genres == null)
+            {
+                <div class="align-content-center">
+                    <p class="m-5">Please Search to load movies...</p>
+                </div>
+            } else
+            {
+                @foreach (var genre in Genres)
+                {
+                        <button type="button" class="btn btn-outline-primary">@genre.Name</button>
+                }
+            }
+        </div>
 
         <!-- result container -->
         <div class = "container">
@@ -18,7 +32,9 @@
                     <div>
                         @if (Movies == null)
                         {
-                            <p class="align-content-center">Please Search to load movies...</p>
+                            <div class="align-content-center">
+                                <p class="m-5">Please Search to load movies...</p>
+                            </div>
                         }
                         else
                         {
@@ -51,12 +67,23 @@
 @code {
     public string searchTerm { get; set; }
     public List<MoviesItem> Movies { get; set; }
+    public List<GenreItem> Genres { get; set; }
     public string Error { get; set; }
 
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Genres = await MoviesService.GenreList();
+        }
+        catch (Exception e)
+        {
+            Error = e.Message;
+        }
+    }
 
     async Task updateSearchTerm()
     {
-        Console.WriteLine("Hello " + searchTerm);
         try
         {
             Movies = await MoviesService.GetMovies(searchTerm);

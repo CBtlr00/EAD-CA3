@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i1U+uOjBir2p65NW8BLgw/B3juhdmy28OtpGosN+T1o=",
+  "Hash": "POYgRPFZdAzUqJzZ/OPpqlNAZiuRFf5VULTfO7oscPM=",
   "Source": "CA3API",
   "BasePath": "/",
   "Mode": "Root",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "C:\\Users\\PC User\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.10\\runtimes\\browser-wasm\\native\\dotnet.wasm"
     },
     {
+      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "CA3API",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\PC User\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.10\\runtimes\\browser-wasm\\native\\icudt.dat"
+    },
+    {
       "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "CA3API",
       "SourceType": "Computed",
@@ -185,23 +202,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\PC User\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.10\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
-    },
-    {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "CA3API",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\PC User\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.10\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -6885,23 +6885,6 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "CA3API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
-    },
-    {
       "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "CA3API",
       "SourceType": "Discovered",
@@ -7002,6 +6985,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "CA3API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
