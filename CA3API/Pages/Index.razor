@@ -1,0 +1,70 @@
+﻿@page "/"
+@using CA3API.Movies
+@inject IMoviesService MoviesService
+
+<PageTitle>Movie API Blazor</PageTitle>
+<body>
+        <!-- search container -->
+        <div class="input-group m-5 align-content-center">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" @bind-value="@searchTerm"/>
+            <button type="button" class="btn btn-outline-primary" @onclick="@updateSearchTerm">Search Movie</button>
+        </div>
+        <!-- end of search container -->
+
+        <!-- result container -->
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                    <div>
+                        @if (Movies == null)
+                        {
+                            <p class="align-content-center">Please Search to load movies...</p>
+                        }
+                        else
+                        {
+                            <div class="row mb-3">
+                                @foreach (var item in Movies)
+                                {
+                                    <div class="card m-2 " style="width:18rem;">
+                                      <img class="card-img-top" src="@item.ImageUrl">
+                                      <div class="card-body">
+                                            <h5 class="card-title">@item.Headline (@item.Year)</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Rating: @item.Rating</h6>
+                                            <h6 class="card-subtitle mb-2 text-muted">Language: @item.Language</h6>
+                                      </div>
+                                    </div>
+                                }
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of result container -->
+</body>
+
+@if (!string.IsNullOrEmpty(Error))
+{
+    <p>@Error</p>
+}
+
+@code {
+    public string searchTerm { get; set; }
+    public List<MoviesItem> Movies { get; set; }
+    public string Error { get; set; }
+
+
+    async Task updateSearchTerm()
+    {
+        Console.WriteLine("Hello " + searchTerm);
+        try
+        {
+            Movies = await MoviesService.GetMovies(searchTerm);
+
+        }
+        catch (Exception e)
+        {
+            Error = e.Message;
+        }
+    }
+}
