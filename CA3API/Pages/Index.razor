@@ -4,10 +4,11 @@
 
 <PageTitle>Movie API Blazor</PageTitle>
 <body>
+    <h1 id="movieTitle">Movie API</h1>
         <!-- search container -->
         <div class="input-group m-5 align-content-center">
-            <input type="search" class="form-control rounded" placeholder="Search by Name" aria-label="Search" aria-describedby="search-addon" @bind-value="@searchTerm"/>
-            <button type="button" class="btn btn-outline-primary" @onclick="@updateSearchTerm">Search Movie</button>
+            <input id="search" type="search" class="form-control rounded" placeholder="Search by Name" aria-label="Search" aria-describedby="search-addon" @bind-value="@searchTerm"/>
+            <button id="send" type="button" class="btn btn-outline-primary" @onclick="@updateSearchTerm">Search Movie</button>
         </div>
         <!-- end of search container -->
         <div class="align-content-center">
@@ -36,7 +37,7 @@
                         @if (Movies == null)
                         {
                             <div class="align-content-center">
-                                <p class="m-5">Please Search to load movies...</p>
+                            <p class="m-5" id="no-movies">Please Search to load movies...</p>
                             </div>
                         }
                         else
@@ -47,7 +48,7 @@
                                     <div class="card m-2 " style="width:18rem;">
                                       <img class="card-img-top" src="@item.ImageUrl">
                                       <div class="card-body">
-                                            <h5 class="card-title">@item.Headline (@item.Year)</h5>
+                                            <h5 class="card-title" id="Headline">@item.Headline (@item.Year)</h5>
                                             <h6 class="card-subtitle mb-2 text-muted">Rating: @item.Rating</h6>
                                             <h6 class="card-subtitle mb-2 text-muted">Language: @item.Language</h6>
                                       </div>
