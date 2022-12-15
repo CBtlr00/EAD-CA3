@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A95ZgUZwn8TwH3B757CMO+Xf0PXxbw5YI+fE4TY4GVE=",
+  "Hash": "3bRCtQlISOVh/w4UQct96lLZr7Bd8JvobTx9xxAEPIg=",
   "Source": "CA3API",
   "BasePath": "/",
   "Mode": "Root",
@@ -7038,40 +7038,6 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\favicon.ico",
-      "SourceId": "CA3API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\icon-192.png",
-      "SourceId": "CA3API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "icon-192.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icon-192.png"
-    },
-    {
       "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\index.html",
       "SourceId": "CA3API",
       "SourceType": "Discovered",
@@ -7087,23 +7053,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "CA3API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }

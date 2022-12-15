@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ha3rYsVkBrDiaxmEZPYKmYbN5nLPlfpPmYK9+SNTxkc=",
+  "Hash": "pqyuE3CfQZWFpXwA59Pg2voeIhgkl5O6/Hd2WgZxr3s=",
   "Source": "CA3API",
   "BasePath": "/",
   "Mode": "Root",
@@ -1122,40 +1122,6 @@
       "OriginalItemSpec": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\linked\\System.Runtime.dll"
     },
     {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\compress\\RSpJwK3q.br",
-      "SourceId": "CA3API",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\bin\\Release\\net6.0\\publish\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Console.dll.br",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\linked\\System.Console.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "br",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\linked\\System.Console.dll"
-    },
-    {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\compress\\RSpJwK3q.gz",
-      "SourceId": "CA3API",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\bin\\Release\\net6.0\\publish\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Console.dll.gz",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\linked\\System.Console.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\linked\\System.Console.dll"
-    },
-    {
       "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\compress\\TMh5CQU7.br",
       "SourceId": "CA3API",
       "SourceType": "Computed",
@@ -1819,23 +1785,6 @@
       "OriginalItemSpec": "obj\\Release\\net6.0\\linked\\System.ComponentModel.dll"
     },
     {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\linked\\System.Console.dll",
-      "SourceId": "CA3API",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\bin\\Release\\net6.0\\publish\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Console.dll",
-      "AssetKind": "Publish",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "obj\\Release\\net6.0\\linked\\System.Console.dll"
-    },
-    {
       "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\obj\\Release\\net6.0\\linked\\System.Linq.dll",
       "SourceId": "CA3API",
       "SourceType": "Computed",
@@ -2261,40 +2210,6 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\favicon.ico",
-      "SourceId": "CA3API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\icon-192.png",
-      "SourceId": "CA3API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "icon-192.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icon-192.png"
-    },
-    {
       "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\index.html",
       "SourceId": "CA3API",
       "SourceType": "Discovered",
@@ -2310,23 +2225,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "CA3API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC User\\Desktop\\CA3\\CA3API\\CA3API\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }

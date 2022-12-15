@@ -14,14 +14,14 @@
             @if (Genres == null)
             {
                 <div class="align-content-center">
-                    <p class="m-5">Please Search to load movies...</p>
+                    <p class="m-5">No Genres Available...</p>
                 </div>
             } else
             {
-                @foreach (var genre in Genres)
-                {
-                        <button type="button" class="btn btn-outline-primary">@genre.Name</button>
-                }
+                    @foreach (var genre in Genres)
+                    {
+                    <button type="button" class="btn btn-outline-danger m-2">@genre.Name</button>
+                    }
             }
         </div>
 

@@ -22,32 +22,6 @@ a, .btn-link {
     padding-top: 1.1rem;
 }
 
-.metadata {
-    background: none;
-    padding: 0;
-    position: relative;
-    border-style: none;
-}
-
-.metadata {
-    font-size: 16px;
-}
-
-    .metadata i, .metadata p {
-        float: left;
-    }
-
-    .metadata p {
-        margin-top: 0;
-        margin-left: 10px;
-    }
-
-    .metadata i {
-        color: #ff9d00;
-        margin-top: 5px;
-        margin-left: 1px;
-    }
-
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }
