@@ -15,7 +15,6 @@ namespace CA3API.Movies
         const string _newsEndpoint = "search/movie?query=";
         const string _genreEndpoint = "discover/movie?with_genres=";
         const string _genreListEndpoint = "genre/movie/list";
-        const string _detailsEndpoint = "movies/getdetails?movie_id=";
         const string _host = "advanced-movie-search.p.rapidapi.com";
         const string _key = "4f949f8e15mshd96321a049eb4dcp165d00jsn9a8ee5e2827a";
 

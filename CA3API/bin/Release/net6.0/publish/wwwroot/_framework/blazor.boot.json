@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "CA3API.dll": "sha256-axsmL25Ijg0Cj5IS+\/reHGrTajIdxpuHmJ5P3bpIlVk=",
+      "CA3API.dll": "sha256-LoBFJtABi4q1ET72YkrQ002Qj+BCYUmAB7vcsWG3LeI=",
       "Microsoft.AspNetCore.Components.dll": "sha256-gjF3RTVxYcjgBCkXajU+aZyc832plbXPB\/ONBIfaPYw=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-8NVvJdAr2Fx3IA1oUpVcOPnfS+fvXFYC0f\/O6K4NNFI=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-c9Jj3AbOglZYOJpVEqaHDRX0gJ3TUeN0Z+a1cOlhXEk=",

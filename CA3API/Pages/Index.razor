@@ -18,11 +18,14 @@
                 </div>
             } else
             {
-                    @foreach (var genre in Genres)
-                    {
-                    <button type="button" class="btn btn-outline-danger m-2">@genre.Name</button>
-                    }
+            <select @onchange="setGenre">
+                @foreach (var genre in Genres)
+                {
+                    <option value=@genre.ID>@genre.Name</option>
+                }
+            </select>
             }
+        <button @onclick="getFiltered" class="btn btn-light">Filter</button>
         </div>
 
         <!-- result container -->
@@ -68,6 +71,7 @@
     public string searchTerm { get; set; }
     public List<MoviesItem> Movies { get; set; }
     public List<GenreItem> Genres { get; set; }
+    private string genre { get; set; }
     public string Error { get; set; }
 
     protected override async Task OnInitializedAsync()
@@ -87,6 +91,24 @@
         try
         {
             Movies = await MoviesService.GetMovies(searchTerm);
+
+        }
+        catch (Exception e)
+        {
+            Error = e.Message;
+        }
+    }
+
+    public void setGenre(ChangeEventArgs e)
+    {
+        genre = e.Value.ToString();
+    }
+
+    public async Task getFiltered()
+    {
+        try
+        {
+            Movies = await MoviesService.GetMoviesbyGenre(genre);
 
         }
         catch (Exception e)
